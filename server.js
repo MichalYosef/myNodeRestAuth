@@ -48,6 +48,7 @@ app.use("/css", express.static(__dirname + '/client/css'));
 app.use("/img", express.static(__dirname + '/client/img'));
 app.use("/js", express.static(__dirname + '/client/js'));
 app.use("/templates", express.static(__dirname + '/client/templates'));
+app.use("/node_modules", express.static(__dirname + '/node_modules'));
 
 // get request parameters
 app.use(bodyParser.urlencoded({ extended: true }));

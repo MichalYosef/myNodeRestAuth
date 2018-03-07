@@ -1,4 +1,4 @@
-angular.module('starter', ['ionic'])
+angular.module('virtualStoreApp', ['ui.router'])
 
 .config(function($stateProvider, $urlRouterProvider) {
 
