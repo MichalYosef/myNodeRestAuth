@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- CSS  -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href='/client/css/style.css'>
+    
+    
+
+    <title>Virtual Store</title>
+</head>
+
+<body ng-app="virtualStoreApp">
+
+    <div id="page">
+
+        <nav id="header">
+            <a class="logo" href="#">Logo</a>
+           
+        </nav>
+ 
+        <div id="mainPanels">
+
+            <div data-ng-controller="loginCtrl" id="panelA" class="mainPanel">
+
+                <div id="headerPanelA"> 
+                    <!--data-ng-show="token" --><button id="shopBtn" class="btn btn-lg btn-success"> Start Shopping / Resume Shopping </button>
+                </div>
+
+                    <login></login>
+                    
+                    <!-- <ul class="nav navbar-nav">
+                        <li><a ng-href="#/">Home</a></li>
+                        <li data-ng-show="token"><a ng-href="#/me">Me</a></li>
+                        <li data-ng-hide="token"><a ng-href="#/signin">Signin</a></li>
+                        <li data-ng-hide="token"><a ng-href="#/signup">Signup</a></li>
+                        <li data-ng-show="token"><a ng-click="logout()">Logout</a></li>
+                    </ul>
+
+                    <div class="container" ng-view=""></div> -->
+                
+            </div>
+            <div class="mainPanel">B</div>
+            <div class="mainPanel">C</div>        
+        </div>
+       
+    </div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="./node_modules/angular/angular.js"></script>
+<!-- <script src="../node_modules/angular-animate/angular-animate.js"></script>
+<script src="../node_modules/angular-aria/angular-aria.js"></script>
+<script src="../node_modules/angular-material/angular-material.js"></script>
+<script src="../node_modules/angular-jwt/dist/angular-jwt.js"></script>
+<script src="../node_modules/angular-storage/dist/angular-storage.js"></script>
+<script src="../node_modules/auth0-angular/build/auth0-angular.js"></script>
+<script src="../node_modules/angular-ui-router/release/angular-ui-router.js"></script> -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.min.js"></script>
+<!-- <script src="./client/scripts/ngStorage.js"></script>
+<script src="./client/scripts/loading-bar.js"></script> -->
+<script src="./client/app.js"></script>
+<!-- <script src="./client/login/login.js"></script> -->
+<!-- <script src="./client/scripts/controllers.js"></script>
+<script src="./client/scripts/services.js"></script> -->
+</body>
+</html>
